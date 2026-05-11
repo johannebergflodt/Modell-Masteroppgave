@@ -2,7 +2,7 @@
 # ENDRING I MARGINALKOSTNAD
 # ========================================================
 # Dette scriptet finner hvor mye marginalkostnaden endrer 
-# seg fra referanse, som følge av avgiftsendringen i 
+# seg fra referanse, som følge av avgiftsendringene i 
 # scenario 1 og 2
 
 
