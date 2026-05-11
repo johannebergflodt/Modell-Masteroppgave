@@ -7,8 +7,8 @@
 source("Functions.R")
 source("Data.R")
 source("Scenarios.R")
+source("Policy.R")
 source("Solver.R")
-source("Method.R")
 source("Results.R")
 source("Sensitivity.R")
 
