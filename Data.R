@@ -2,8 +2,7 @@
 # PARAMETERE OG KALIBRERING
 # =====================================================
 # Dette scriptet definerer alle modellparametere og
-# kalibrerer etterspørsel og tilbud basert på data.
-# =====================================================
+# kalibrerer etterspørsel og tilbud basert på data
 
 
 # -----------------------------------------------------

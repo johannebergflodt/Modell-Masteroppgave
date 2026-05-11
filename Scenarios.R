@@ -1,9 +1,8 @@
 # =====================================================
-# SCENARIER
+# SCENARIOER
 # =====================================================
-# Dette scriptet definerer ulike policy-scenarier som
-# påvirker kostnadsstrukturen i modellen.
-# =====================================================
+# Dette scriptet definerer ulike policy-scenarioer som
+# påvirker kostnadsstrukturen i modellen
 
 
 # -----------------------------------------------------
@@ -50,11 +49,11 @@ scenario_2_ETS2_CO2 <- function(params) {
 # -----------------------------------------------------
 # SCENARIO 3: Introduksjon av elektriske aktører
 # -----------------------------------------------------
-
 # Som i scenario 1 hvor ETS2 erstatter CO2-prisen
 # men med elektriske lastebiler inkludert 
 # Elektriske aktører inkluderes med dagens kostnadsnivå
 # og gjeldende subsidie
+
 scenario_3 <- function(params) {
   params_copy <- params
   

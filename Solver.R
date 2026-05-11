@@ -1,8 +1,8 @@
 # =====================================================
 # LØSNING AV LIKEVEKT
 # =====================================================
-# Finner likevektspris og mengder ved å løse modellen
-# =====================================================
+# Dette scriptet finner likevektsverdiene ved å løse modellen
+
 library(nleqslv)
 
 # -----------------------------------------------------

@@ -1,6 +1,7 @@
 # =====================================================
 # HOVEDSCRIPT
 # =====================================================
+# Dette scriptet kjører hele modellen
 
 # Laster inn alle deler av modellen
 source("Functions.R")

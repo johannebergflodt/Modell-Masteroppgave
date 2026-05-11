@@ -1,8 +1,8 @@
 # =======================================================
 # SENSITIVITETSANALYSE
 # =======================================================
-# Tester hvordan resultatene endres ved variasjon i
-# sentrale parametere
+# Dette scriptet tester hvordan resultatene endres ved 
+# variasjon i sentrale parametere
 
 
 # ========================================================
@@ -14,7 +14,7 @@
 # --------------------------------------------------------
 # Basis: -0,6 (benyttet i modellen)
 # Lav:   -0,2 (svært uelastisk, jf. Oslo Economics)
-# Høy:   -1,5 (øvre sjikt, jf. De Jong et al. 2010)
+# Høy:   -1,5 (elastisk, jf. De Jong et al. 2010)
 
 elastisiteter <- c(-0.2, -0.6, -1.5)
 
@@ -58,7 +58,7 @@ for (e in elastisiteter) {
   pst_XU_s2     <- (s2_e["X_U"]                  - rs_e["X_U"])                  / rs_e["X_U"]                  * 100
   pst_XTotal_s2 <- (s2_e["X_N"] + s2_e["X_U"]   - rs_e["X_N"] - rs_e["X_U"])   / (rs_e["X_N"] + rs_e["X_U"]) * 100
   
-  # Samle resultater
+  # Samler resultater
   resultater_sens <- rbind(resultater_sens, data.frame(
     elastisitet   = e,
     # Likevektsverdier scenario 1
